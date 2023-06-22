@@ -38,35 +38,35 @@
 
     //Toggle Note
 
-    $('#dev').click(function(){
+    $('#dev').click(function () {
         this.classList.toggle('active');
-        if($('#iDev').hasClass('fa fa-chevron-circle-down')){
+        if ($('#iDev').hasClass('fa fa-chevron-circle-down')) {
             $('#iDev').removeClass('fa-chevron-circle-down');
             $('#iDev').addClass('fa-chevron-circle-up');
         }
-        else{
+        else {
             $('#iDev').removeClass('fa-chevron-circle-up');
             $('#iDev').addClass('fa-chevron-circle-down');
         }
     });
-    $('#offensive').click(function(){
+    $('#offensive').click(function () {
         this.classList.toggle('active');
-        if($('#iOffensive').hasClass('fa fa-chevron-circle-down')){
+        if ($('#iOffensive').hasClass('fa fa-chevron-circle-down')) {
             $('#iOffensive').removeClass('fa-chevron-circle-down');
             $('#iOffensive').addClass('fa-chevron-circle-up');
         }
-        else{
+        else {
             $('#iOffensive').removeClass('fa-chevron-circle-up');
             $('#iOffensive').addClass('fa-chevron-circle-down');
         }
     });
-    $('#deffensive').click(function(){
+    $('#deffensive').click(function () {
         this.classList.toggle('active');
-        if($('#iDeffensive').hasClass('fa fa-chevron-circle-down')){
+        if ($('#iDeffensive').hasClass('fa fa-chevron-circle-down')) {
             $('#iDeffensive').removeClass('fa-chevron-circle-down');
             $('#iDeffensive').addClass('fa-chevron-circle-up');
         }
-        else{
+        else {
             $('#iDeffensive').removeClass('fa-chevron-circle-up');
             $('#iDeffensive').addClass('fa-chevron-circle-down');
         }
